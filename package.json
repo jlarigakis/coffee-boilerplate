@@ -17,5 +17,6 @@
     "browserify": "^5.10.1",
     "coffeeify": "^0.7.0",
     "exorcist": "^0.1.6"
-  }
+  },
+  "browserify": { "transform": "coffeeify" }
 }
