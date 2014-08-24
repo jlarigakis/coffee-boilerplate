@@ -1,0 +1,21 @@
+{
+  "name": "coffee-boilerplate",
+  "version": "0.0.0",
+  "description": "simple testing boilerplate using coffee/express/browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee index.coffee"
+  },
+  "author": "Jason Larigakis",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.8.5"
+  },
+  "devDependencies": {
+    "browserify": "^5.10.1",
+    "coffeeify": "^0.7.0",
+    "exorcist": "^0.1.6"
+  }
+}
